@@ -2,7 +2,7 @@
 
 angular
     .module('com.ni.widgets')
-    .controller('com.ni.widgets.BaseWidget', BaseWidget, ['$scope']);
+    .controller('BaseWidget', BaseWidget, ['$scope']);
 
 function BaseWidget($scope) {
     'use strict';

@@ -1,9 +1,8 @@
 /*global angular, BaseWidgetDeux, console, namespace*/
 
-    
 angular
     .module('com.ni.widgets.deux')
-    .controller('namespace.ngInherit.widgets.BaseWidgetDeux', namespace.ngInherit.widgets.BaseWidgetDeux);
+    .controller('BaseWidgetDeux', namespace.ngInherit.widgets.BaseWidgetDeux);
 
 namespace.ngInherit.widgets.BaseWidgetDeux = function BaseWidgetDeux() {
     'use strict';

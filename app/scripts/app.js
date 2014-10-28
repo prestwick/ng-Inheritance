@@ -9,7 +9,6 @@
  * Main module of the application.
  */
 
-
 var namespace = {};
 namespace.ngInherit = {};
 namespace.ngInherit.app =

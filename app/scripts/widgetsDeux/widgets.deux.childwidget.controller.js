@@ -2,7 +2,7 @@
 
 angular
     .module('com.ni.widgets.deux')
-    .controller('namespace.ngInherit.widgets.ChildWidgetDeux1', namespace.ngInherit.widgets.ChildWidgetDeux);
+    .controller('ChildWidgetDeux', namespace.ngInherit.widgets.ChildWidgetDeux);
 
 namespace.ngInherit.widgets.ChildWidgetDeux = function ChildWidgetDeux() {
     'use strict';

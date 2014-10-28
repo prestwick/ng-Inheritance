@@ -2,10 +2,7 @@
 
 angular
     .module('com.ni.widgets')
-    .controller('com.ni.widgets.ChildWidget', ChildWidget);
-
-
-//ChildWidget.$inject = ['$controller', '$scope'];
+    .controller('ChildWidget', ChildWidget);
 
 function ChildWidget($controller, $scope) {
     'use strict';
